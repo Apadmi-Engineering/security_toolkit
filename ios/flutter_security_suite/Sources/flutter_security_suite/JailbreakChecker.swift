@@ -5,6 +5,12 @@
 //  Created by Tom Handcock on 24/06/2025.
 //
 //  Based on checks described in https://github.com/securing/IOSSecuritySuite/tree/1.9.11
+
+import CInternalDarwin
+import Darwin
+import Foundation
+import UIKit
+
 class JailbreakChecker {
     
     let simulatorChecker: SimulatorChecker

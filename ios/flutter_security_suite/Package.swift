@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "flutter_security_suite",
     platforms: [
-        .iOS("12.0")
+        .iOS("13.0")
     ],
     products: [
         .library(name: "flutter-security-suite", targets: ["flutter_security_suite"])
@@ -18,8 +18,12 @@ let package = Package(
         .target(
             name: "flutter_security_suite",
             dependencies: [
-                .product(name: "FlutterFramework", package: "FlutterFramework")
+                .product(name: "FlutterFramework", package: "FlutterFramework"),
+                "CInternalDarwin"
             ]
+        ),
+        .target(
+            name: "CInternalDarwin"
         )
     ]
 )

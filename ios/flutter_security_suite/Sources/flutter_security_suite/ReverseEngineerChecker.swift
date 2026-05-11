@@ -4,6 +4,8 @@
 //
 //  Created by Tom Handcock on 24/06/2025.
 //
+import CInternalDarwin
+import Darwin
 
 class ReverseEngineerChecker {
     
