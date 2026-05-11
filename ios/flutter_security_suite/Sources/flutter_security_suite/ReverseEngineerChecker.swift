@@ -4,8 +4,10 @@
 //
 //  Created by Tom Handcock on 24/06/2025.
 //
+#if SWIFT_PACKAGE
 import CInternalDarwin
 import Darwin
+#endif
 
 class ReverseEngineerChecker {
     

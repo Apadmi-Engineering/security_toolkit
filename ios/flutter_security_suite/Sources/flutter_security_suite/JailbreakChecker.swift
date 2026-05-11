@@ -6,8 +6,10 @@
 //
 //  Based on checks described in https://github.com/securing/IOSSecuritySuite/tree/1.9.11
 
+#if SWIFT_PACKAGE
 import CInternalDarwin
 import Darwin
+#endif
 import Foundation
 import UIKit
 
