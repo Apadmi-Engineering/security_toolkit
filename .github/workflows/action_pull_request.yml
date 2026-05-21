@@ -15,4 +15,4 @@ jobs:
           flutter pub get
       - name: Run unit tests
         run: |
-          dart run test test/unit
+          flutter test test/unit
