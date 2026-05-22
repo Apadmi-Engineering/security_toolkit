@@ -8,7 +8,7 @@ import 'package:pigeon/pigeon.dart';
     kotlinOut:
         "android/src/main/kotlin/com/apadmi/flutter_security_suite/SecuritySuiteApi.g.kt",
     kotlinOptions: KotlinOptions(errorClassName: "FlutterSecuritySuiteError"),
-    swiftOut: "ios/Classes/SecuritySuiteApi.g.swift",
+    swiftOut: "ios/flutter_security_suite/Sources/flutter_security_suite/SecuritySuiteApi.g.swift",
     swiftOptions: SwiftOptions(errorClassName: "SecuritySuiteError"),
   ),
 )

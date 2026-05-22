@@ -1,3 +1,8 @@
+## 1.0.0
+
+* Initial public release.
+* Add support for Swift Package Manager.
+
 ## 0.1.3
 
 * Update docs for public release.
