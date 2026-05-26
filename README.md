@@ -23,6 +23,7 @@ insecure environment.
 Usage of this plugin has the following requirements:
 
 * Minimum Android SDK: 23
+* Minimum Android Gradle Plugin: 9.X
 * Minimum iOS version: 12.0
 
 ## Usage

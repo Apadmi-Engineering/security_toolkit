@@ -1,6 +1,7 @@
-## 1.0.1
+## 1.1.0
 
-* Adds support for built-in Kotlin.
+* Migrates plugin to built-in Kotlin & AGP 9.
+* Raises minimum Flutter SDK to 3.44.0
 
 ## 1.0.0
 
