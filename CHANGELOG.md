@@ -1,3 +1,7 @@
+## 1.0.1
+
+* Adds support for built-in Kotlin.
+
 ## 1.0.0
 
 * Initial public release.
