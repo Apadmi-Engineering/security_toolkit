@@ -1,10 +1,10 @@
 # Flutter Security Suite
 
 > [!IMPORTANT]
-> Whilst this package is open-source, and you are free to use according to the license, this is
-> primarily a convenience for internal Apadmi projects. No liability is accepted for issues or
-> claims
-> arising from the use of this package.
+> Whilst this plugin is open-source, and you are free to use according to the license, this is
+> primarily a convenience for internal Apadmi projects. Our priorities responding to issues 
+> raised by others reflects this so please use your own discretion when opting 
+> to depend on this plugin.
 
 A Flutter plugin that performs static runtime checks on Android and iOS apps to indicate an
 insecure environment.
