@@ -16,5 +16,6 @@ class SecuritySuiteImpl(
 
     override fun isLikelyEmulator(): Boolean = emulatorChecker.isLikelyEmulator()
 
+    // Intentional - Not implemented on Android
     override fun isReverseEngineered(): Boolean = false
 }
