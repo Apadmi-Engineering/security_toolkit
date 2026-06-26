@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_security_suite/flutter_security_suite.dart';
+import 'package:security_toolkit/security_toolkit.dart';
 
 class OverallSecurityReading extends StatelessWidget {
   final SecurityCheckResult result;

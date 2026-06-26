@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_security_suite_example/utils/color_ext.dart';
+import 'package:security_toolkit_example/utils/color_ext.dart';
 
 class IndividualSecurityReading extends StatelessWidget {
   final String name;

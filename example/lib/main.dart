@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
-import 'package:flutter_security_suite/flutter_security_suite.dart';
-import 'package:flutter_security_suite_example/widgets/overall.dart';
-import 'package:flutter_security_suite_example/widgets/security_reading.dart';
+import 'package:security_toolkit/security_toolkit.dart';
+import 'package:security_toolkit_example/widgets/overall.dart';
+import 'package:security_toolkit_example/widgets/security_reading.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +30,7 @@ class _MyAppState extends State<MyApp> {
               title: const Text('Flutter Security Suite Example'),
             ),
             body: FutureBuilder(
-              future: SecuritySuite.checkSecureEnvironment(),
+              future: SecurityToolkit.checkSecureEnvironment(),
               builder:
                   (_, state) => switch (state) {
                     AsyncSnapshot(connectionState: ConnectionState.waiting) =>
