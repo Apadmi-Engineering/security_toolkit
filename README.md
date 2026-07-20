@@ -1,4 +1,4 @@
-# Flutter Security Suite
+# Security Toolkit
 
 > [!IMPORTANT]
 > Whilst this plugin is open-source, and you are free to use according to the license, this is
@@ -27,9 +27,9 @@ Usage of this plugin has the following requirements:
 
 ## Usage
 
-A single class, `SecuritySuite`, is exposed which has a number of static methods to perform the
+A single class, `SecurityToolkit`, is exposed which has a number of static methods to perform the
 checks listed above. That said, most of the time you'll simply want to use
-`SecuritySuite.checkSecureEnvironment()` for a single, comprehensive check.
+`SecurityToolkit.checkSecureEnvironment()` for a single, comprehensive check.
 
 ## Considerations
 

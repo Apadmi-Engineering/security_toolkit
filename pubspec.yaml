@@ -22,7 +22,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.apadmi.flutter_security_suite
-        pluginClass: FlutterSecuritySuitePlugin
+        package: com.apadmi.security_toolkit
+        pluginClass: SecurityToolkitPlugin
       ios:
-        pluginClass: FlutterSecuritySuitePlugin
+        pluginClass: SecurityToolkitPlugin
