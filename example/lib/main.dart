@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
         builder: (context) {
           return Scaffold(
             appBar: AppBar(
-              title: const Text('Flutter Security Suite Example'),
+              title: const Text('Security Toolkit Example'),
             ),
             body: FutureBuilder(
               future: SecurityToolkit.checkSecureEnvironment(),
