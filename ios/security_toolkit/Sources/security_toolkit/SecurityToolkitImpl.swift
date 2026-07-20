@@ -1,11 +1,12 @@
 //
-//  SecuritySuiteImpl.swift
+//  SecurityToolkitImpl.swift
 //  Pods
 //
 //  Created by Tom Handcock on 24/06/2025.
+//  Re-factored by Tom Handcock on 08/07/2025.
 //
 
-class SecuritySuiteImpl: SecuritySuiteApi {
+class SecurityToolkitImpl: SecurityToolkitApi {
     
     let debuggerChecker: DebuggerChecker
     let jailbreakChecker: JailbreakChecker

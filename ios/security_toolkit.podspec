@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'flutter_security_suite'
+  s.name             = 'security_toolkit'
   s.version          = '0.0.1'
   s.summary          = 'Security utilities for Flutter apps.'
   s.description      = <<-DESC
@@ -9,7 +9,7 @@ Security utilities for Flutter apps.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Apadmi Ltd.' => 'tomh@apadmi.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'flutter_security_suite/Sources/flutter_security_suite/**/*.swift'
+  s.source_files = 'security_toolkit/Sources/security_toolkit/**/*.swift'
   s.dependency 'Flutter'
   s.platform = :ios, '13.0'
 
