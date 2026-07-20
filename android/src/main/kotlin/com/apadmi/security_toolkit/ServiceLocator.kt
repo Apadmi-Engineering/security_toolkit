@@ -1,6 +1,6 @@
-package com.apadmi.flutter_security_suite
+package com.apadmi.security_toolkit
 
-import SecuritySuiteApi
+import SecurityToolkitApi
 import android.content.Context
 import android.view.inputmethod.InputMethodManager
 import com.scottyab.rootbeer.RootBeer
@@ -15,6 +15,6 @@ object ServiceLocator {
     private fun getInputMethodManager(context: Context): InputMethodManager =
         context.getSystemService(InputMethodManager::class.java)
 
-    fun getSecuritySuite(context: Context): SecuritySuiteApi =
-        SecuritySuiteImpl(context, getEmulatorChecker(context), getRootBeer(context))
+    fun getSecurityToolkit(context: Context): SecurityToolkitApi =
+        SecurityToolkitImpl(context, getEmulatorChecker(context), getRootBeer(context))
 }
