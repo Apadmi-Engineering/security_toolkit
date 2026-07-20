@@ -1,5 +1,3 @@
-# Security Toolkit
-
 > [!IMPORTANT]
 > Whilst this plugin is open-source, and you are free to use according to the license, this is
 > primarily a convenience for internal Apadmi projects. Our priorities responding to issues 

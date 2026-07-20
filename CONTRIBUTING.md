@@ -30,7 +30,7 @@ for frequent breaking changes.
 Whenever you wish to update the Pigeon bindings, simply run:
 
 ```shell
-dart run pigeon --input pigeons/security_suite_messages.dart
+dart run pigeon --input pigeons/security_toolkit_messages.dart
 ```
 
 Generated pigeon bindings are source-controlled in this package due to it being published 
