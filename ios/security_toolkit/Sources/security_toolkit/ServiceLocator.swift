@@ -15,8 +15,8 @@ class ServiceLocator {
     
     static let simulatorChecker: SimulatorChecker = SimulatorChecker()
     
-    static func getSecuritySuiteApi() -> SecuritySuiteApi {
-        return SecuritySuiteImpl(
+    static func getSecurityToolkitApi() -> SecurityToolkitApi {
+        return SecurityToolkitImpl(
             debuggerChecker: debuggerChecker,
             jailbreakChecker: jailbreakChecker,
             reverseEngineerChecker: reverseEngineerChecker,

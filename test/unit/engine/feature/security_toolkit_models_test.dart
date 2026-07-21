@@ -1,8 +1,8 @@
-import 'package:flutter_security_suite/flutter_security_suite.dart';
+import 'package:security_toolkit/security_toolkit.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  group("Security suite models unit tests", () {
+  group("Security toolkit models unit tests", () {
     test("isSecureEnvironment - when no violations - returns true", () {
       // Setup
       final receiver = SecurityCheckResult({});

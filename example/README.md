@@ -1,3 +1,3 @@
-# flutter_security_suite_example
+# security_toolkit_example
 
-Demonstrates how to use the flutter_security_suite plugin.
+Demonstrates how to use the security_toolkit plugin.

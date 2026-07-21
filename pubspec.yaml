@@ -1,6 +1,6 @@
-name: flutter_security_suite
+name: security_toolkit
 description: "Security utilities for Flutter apps"
-version: 1.1.0
+version: 2.0.0
 homepage:
 
 environment:
@@ -22,7 +22,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.apadmi.flutter_security_suite
-        pluginClass: FlutterSecuritySuitePlugin
+        package: com.apadmi.security_toolkit
+        pluginClass: SecurityToolkitPlugin
       ios:
-        pluginClass: FlutterSecuritySuitePlugin
+        pluginClass: SecurityToolkitPlugin

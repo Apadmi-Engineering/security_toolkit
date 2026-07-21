@@ -1,1 +1,1 @@
-rootProject.name = "flutter_security_suite"
+rootProject.name = "security_toolkit"

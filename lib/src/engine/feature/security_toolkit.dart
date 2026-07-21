@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_security_suite/src/engine/api/security_suite_api.g.dart';
-import 'package:flutter_security_suite/src/engine/feature/security_suite_models.dart';
+import 'package:security_toolkit/src/engine/api/security_toolkit_api.g.dart';
+import 'package:security_toolkit/src/engine/feature/security_toolkit_models.dart';
 
-abstract class SecuritySuite {
-  static final _api = SecuritySuiteApi();
+abstract class SecurityToolkit {
+  static final _api = SecurityToolkitApi();
 
   /// Answers [true] if the app is running on a rooted or jail-broken device.
   static Future<bool> isRooted() => _api.isRooted();

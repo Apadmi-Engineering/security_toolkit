@@ -1,3 +1,7 @@
+## 2.0.0
+
+* Changed package name to `security_toolkit`.
+
 ## 1.1.0
 
 * Migrates plugin to built-in Kotlin & AGP 9.

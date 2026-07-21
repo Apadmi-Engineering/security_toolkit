@@ -1,4 +1,4 @@
-package com.apadmi.flutter_security_suite
+package com.apadmi.security_toolkit
 
 import android.os.Build
 import android.view.inputmethod.InputMethodManager
