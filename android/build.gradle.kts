@@ -1,4 +1,4 @@
-group = "com.apadmi.flutter_security_suite"
+group = "com.apadmi.security_toolkit"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -26,7 +26,7 @@ plugins {
 }
 
 android {
-    namespace = "com.apadmi.flutter_security_suite"
+    namespace = "com.apadmi.security_toolkit"
 
     compileSdk = 36
 

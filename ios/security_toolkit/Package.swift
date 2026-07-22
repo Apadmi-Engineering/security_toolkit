@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "flutter_security_suite",
+    name: "security_toolkit",
     platforms: [
         .iOS("13.0")
     ],
     products: [
-        .library(name: "flutter-security-suite", targets: ["flutter_security_suite"])
+        .library(name: "security-toolkit", targets: ["security_toolkit"])
     ],
     dependencies: [
         .package(name: "FlutterFramework", path: "../FlutterFramework")
     ],
     targets: [
         .target(
-            name: "flutter_security_suite",
+            name: "security_toolkit",
             dependencies: [
                 .product(name: "FlutterFramework", package: "FlutterFramework"),
                 "CInternalDarwin"

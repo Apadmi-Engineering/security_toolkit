@@ -1,6 +1,6 @@
 //
 //  empty.c
-//  flutter_security_suite
+//  security_toolkit
 //
 //  Created by Tom Handcock on 08/05/2026.
 //
