@@ -2,7 +2,7 @@
 
 * Bump AGP to 9.4.0, Gradle to 9.6.0, Java to version 21, and Kotlin to 2.4.20.
 * Raise minimum Android SDK to 24 (from 23) to align with Flutter 3.47
-* Raise minimum iOS SDK to 15.0 (from 12.0) to align with Flutter 3.47.
+* Raise minimum iOS SDK to 15.0 (from 13.0) to align with Flutter 3.47.
 
 ## 2.0.0
 
