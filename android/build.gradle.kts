@@ -49,7 +49,7 @@ android {
     }
 
     defaultConfig {
-        minSdk = 23
+        minSdk = flutter.minSdkVersion
     }
 
     testOptions {
