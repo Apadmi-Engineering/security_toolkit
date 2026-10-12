@@ -18,7 +18,10 @@ pluginManagement {
 
 plugins {
     id("dev.flutter.flutter-plugin-loader") version "1.0.0"
-    id("com.android.application") version "9.2.1" apply false
+    id("com.android.application") version "9.3.2" apply false
+    // Explicitly pinned as Flutter 3.47's minimum Kotlin version is higher than AGP's.
+    // Not applied so proiject still uses built-in Kotlin.
+    id("org.jetbrains.kotlin.android") version "2.4.20" apply false
 }
 
 include(":app")

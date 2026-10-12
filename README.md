@@ -20,8 +20,8 @@ insecure environment.
 
 Usage of this plugin has the following requirements:
 
-* Minimum Android SDK: 23
-* Minimum iOS version: 12.0
+* Minimum Android SDK: 24
+* Minimum iOS version: 15.0
 
 ## Usage
 
