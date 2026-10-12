@@ -19,6 +19,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  melos: ^8.9.0
 
 flutter:
   plugin:
@@ -28,3 +29,13 @@ flutter:
         pluginClass: SecurityToolkitPlugin
       ios:
         pluginClass: SecurityToolkitPlugin
+
+melos:
+  useRootAsPackage: true
+  command:
+    version:
+      branch: develop
+      message: |
+        {new_package_versions}
+      includeScopes: false
+      workspaceChangelog: false
