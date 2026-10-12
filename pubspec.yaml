@@ -1,7 +1,7 @@
 name: security_toolkit
 description: "Security utilities for Flutter apps"
 repository: https://github.com/Apadmi-Engineering/security_toolkit
-version: 2.1.0
+version: 2.2.0
 homepage:
 
 environment:

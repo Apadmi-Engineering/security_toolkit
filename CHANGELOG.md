@@ -1,3 +1,9 @@
+## 2.2.0
+
+* Adds `meta` package dependency.
+* Adds repository URL to `pubspec.yaml`.
+* Renames `docs` directory to `doc`.
+
 ## 2.1.0
 
 * Bump AGP to 9.4.0, Gradle to 9.6.0, Java to version 21, and Kotlin to 2.4.20.
